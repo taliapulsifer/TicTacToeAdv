@@ -7,18 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="500">
     <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
 
-        <Label Grid.Column="1">Names</Label>
-        <ListBox Grid.Row="1" x:Name= "firstNames" />
 
     </Grid>
 </Window>
